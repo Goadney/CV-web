@@ -1,7 +1,7 @@
 
 :root {
-    --color-principal: #9552D4;
-    --color-accent: #544795;
+    --color-principal:#2881B8;
+    --color-accent: #12679B;
     --color-text: #ffffff;
     --color-link: #9fbc87;
     --color-degrade: linear-gradient(28deg, var(--color-principal) 29%, var(--color-accent) 100%);
@@ -569,8 +569,8 @@ label[for="show"]>* {
 
 @media print { 
     :root {
-        --color-principal: #9552D4;
-        --color-accent: #544795;
+        --color-principal:#2881B8;
+        --color-accent: #12679B;
         --color-text: #ffffff;
         --color-link: #9fbc87;
         --color-degrade: linear-gradient(28deg, var(--color-principal) 29%, var(--color-accent) 100%);
@@ -594,7 +594,7 @@ label[for="show"]>* {
     .container{
         box-shadow: none;  
     }
-    .slide, #printDiv, .bubble-global{
+    .slide, #printDiv, .bubble-global,#help-logiciels,#help-back,#help{
         display: none;
     }
     
