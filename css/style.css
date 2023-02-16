@@ -1,4 +1,5 @@
 
+
 :root {
     --color-principal:#2881B8;
     --color-accent: #12679B;
@@ -446,7 +447,7 @@ h3 {
 
 .slide {
     position: fixed;
-    display: flex;
+    display: flex;  
     top: 0;
     right: 0;
     height: 100%;
@@ -566,6 +567,126 @@ label[for="show"]>* {
     
 
 }
+@media (max-device-width : 900px){
+
+    .container {
+        width: 12cm;
+        height: 16.5cm;
+
+    }
+    h2,h3{
+        margin: 12px 0 5px 0;
+
+    }
+    #left-body h2{
+        margin-top: 15px;
+    }
+    #left-body{
+        font-size: 0.5em;
+    }
+    #right-body{
+        font-size: 0.5em;
+    }
+    .front-div,  .network-div{
+        width: 115px;
+        height: 65px;
+        margin: 5px 5px 0 0;
+      }
+      .back-div{
+        width: 115px;
+        height: 80px;
+        margin: 5px 5px 0 0;
+
+      }
+
+      .divers-div{ 
+        width: 115px;
+        height: 50px;
+        margin: 5px 5px 0 0;
+      }
+    #logo-lang-front {
+        width: 90px;
+        margin: 10px auto 0;
+      }
+      .logo-lang-back {
+        width: 29px;
+        height: 55px;
+        margin: -7px auto -15px;
+      }
+      #ul-comp{ 
+        font-size: .9em;
+      }
+      .patronyme h1 {
+        font-size: 1.2rem;
+        width: 260px;
+        height: 20px;
+      }
+      #apropos {
+        width: 296px;
+      }
+      #logo-car {
+        margin-right: 3px;
+        height: 20px;
+      }
+      #printButton {
+        border-radius: 0 5px 5px 0;
+        font-size: 0.8em;
+        height: 39px;
+        width: 110px;
+      }
+      #printButton:hover {
+        font-size: 0.85em;
+      }
+      .exp-eff {
+        line-height: 0.5rem;
+      }
+      #logiciels-logo {
+        width: 270px;
+        height: 24px;
+        margin: 0;
+      }
+      #logiciels-title {
+        margin-bottom: 8px;
+      }
+      #exp {
+        font-size: 1em;
+        line-height: 1.3em;
+      }
+      #exp li { 
+        line-height: 1.3em;
+      }
+      .icon-logiciels {
+        height: 23px;
+        width: 23px;
+      }
+      #help-back,#help{ 
+        height: 8px;
+        width: 8px;
+      }
+      #help-logiciels {
+
+        right: 33%;
+        height: 8px;
+        width: 8px;
+        margin: 0 7.5px 3px 0;
+      }
+      #add::before, #tel::before, #mail::before, #linkedin::before, #git::before {
+
+        height: 13px;
+        width: 16px;
+
+      }
+      #right-body p {
+        margin-top: 0;
+    }
+    #tab-comp{ 
+        margin-left: 5px;
+    }
+    .slide {
+        --button-size: 30px;
+        --button-space: -6px;
+    }
+    }
 
 @media print { 
     :root {
